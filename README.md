@@ -125,29 +125,12 @@ Docling/
 - `pypdf`: PDF processing
 - `langgraph`: Workflow orchestration
 
-## Development
-
-### Running Tests
-
-```bash
-pytest tests/
-```
-
-### Code Formatting
-
-```bash
-black src/
-ruff check src/
-```
 
 ## Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Add tests
-5. Submit a pull request
+4. Submit a pull request
 
-## License
 
-MIT License - see LICENSE file for details.
