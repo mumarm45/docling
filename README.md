@@ -12,19 +12,9 @@ A sophisticated document processing system that uses AI agents to analyze, retri
 
 ## Architecture
 
-### Agent Workflow
+## Workflow Diagram
 
-```mermaid
-graph TD
-    A[User Question] --> B[Relevance Checker]
-    B --> C{Relevant?}
-    C -->|Yes| D[Research Agent]
-    C -->|No| E[End - No Answer]
-    D --> F[Verification Agent]
-    F --> G{Verified?}
-    G -->|No| D
-    G -->|Yes| H[Final Answer]
-```
+![Agent Workflow](workflow_graph.png)
 
 ### Components
 
@@ -161,8 +151,6 @@ ruff check src/
 
 MIT License - see LICENSE file for details.
 
-## Workflow Diagram
 
-![Agent Workflow](workflow_graph.png)
 
 *Generated using Mermaid - see `src/utils/draw_workflow.py` for details*
