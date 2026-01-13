@@ -9,12 +9,13 @@ A sophisticated document processing system that uses AI agents to analyze, retri
 - 🔍 **Hybrid Retrieval**: Combines BM25 and vector-based search
 - 🧠 **AI-Powered**: Uses Claude for intelligent document analysis
 - 📊 **Workflow Visualization**: Mermaid diagrams for workflow understanding
-
-## Architecture
-
 ## Workflow Diagram
 
 ![Agent Workflow](workflow_graph.png)
+
+*Generated using Mermaid - see `src/utils/draw_workflow.py` for details*
+
+## Architecture
 
 ### Components
 
@@ -150,7 +151,3 @@ ruff check src/
 ## License
 
 MIT License - see LICENSE file for details.
-
-
-
-*Generated using Mermaid - see `src/utils/draw_workflow.py` for details*
